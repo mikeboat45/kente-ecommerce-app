@@ -1,16 +1,61 @@
-# React + Vite
+# Heritage Kente E-commerce Web App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Kente Shop Online is a frontend-only e-commerce web application built using JavaScript and the React framework, and styles using Tailwind CSS utility classes. The project simulates a complete online shopping experience for a traditional Kente shop, allowing users to browse products, add items to a cart, and complete a mock checkout flow.
 
-Currently, two official plugins are available:
+This project was built to strengthen core frontend development skills, including dynamic UI rendering, state management using ContextAPI and Zustand, and multi-page application workflows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Objectives
+- Build a functional e-commerce store using vanilla frontend technologies
 
-## React Compiler
+- Implement dynamic product rendering from structured data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Create a persistent shopping cart experience
 
-## Expanding the ESLint configuration
+- Simulate a checkout flow without a backend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Apply responsive design and clean UI principles
+
+## Features
+- Product listing page with Kente fabric items
+
+- Single product detail view
+
+- Add to cart and remove from cart functionality
+
+- Cart persistence using browser localStorage
+
+- Quantity updates and price calculations
+
+- Checkout form with order summary
+
+- Mock order confirmation flow
+
+- Fully responsive layout
+
+## Future Improvements
+- Integrate a backend service
+
+- Add user authentication
+
+- Implement real payment gateways
+
+- Enhance product filtering and search
+
+- Improve accessibility and animations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
