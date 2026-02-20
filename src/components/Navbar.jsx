@@ -14,7 +14,7 @@ function Navbar() {
         {/* logo */}
         <div id="logo" className="flex items-center">
           <img
-            src="/heritage-logo-1.png"
+            src="/heritage-logo-1-removebg.png"
             alt="logo"
             width="80px"
             height="80px"

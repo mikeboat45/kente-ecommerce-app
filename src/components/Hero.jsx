@@ -13,7 +13,8 @@ function Hero() {
             <span className=" bg-linear-to-r from-amber-300 to-yellow-500 bg-clip-text text-transparent">
               Heritage
             </span>
-            , Worn with Pride
+            , <br />
+            Worn with Pride
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 leading-relaxed">
             Discover handcrafted Kente pieces that celebrate centuries of
@@ -37,42 +38,44 @@ function Hero() {
         </div>
       </section>
 
-      <section class="py-6 border-b border-border">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <section className="py-6 border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
-              <div class="bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
+              <div className="bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
                 <Van />
               </div>
               <div>
-                <h3 class="font-semibold text-foreground">
+                <h3 className="font-semibold text-foreground">
                   Worldwide Shipping
                 </h3>
-                <p class="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground">
                   Delivering heritage globally
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
-              <div class="w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center bg-amber-100 text-amber-300">
+              <div className="w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center bg-amber-100 text-amber-300">
                 <Shield />
               </div>
               <div>
-                <h3 class="font-semibold text-foreground">
+                <h3 className="font-semibold text-foreground">
                   Authenticity Guaranteed
                 </h3>
-                <p class="text-sm text-muted-foreground">Hand-woven in Ghana</p>
+                <p className="text-sm text-muted-foreground">
+                  Hand-woven in Ghana
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
-              <div class=" bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
+              <div className=" bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
                 <Award />
               </div>
               <div>
-                <h3 class="font-semibold text-foreground">
+                <h3 className="font-semibold text-foreground">
                   Master Craftsmanship
                 </h3>
-                <p class="text-sm text-muted-foreground">
+                <p className="text-sm text-muted-foreground">
                   Generations of expertise
                 </p>
               </div>
