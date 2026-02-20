@@ -1,4 +1,4 @@
-import { ArrowDown, Van, Shield, Award } from "lucide-react";
+import { ArrowRight, Van, Shield, Award } from "lucide-react";
 
 function Hero() {
   return (
@@ -9,8 +9,11 @@ function Hero() {
             Authentic Ghanaian Craftsmanship
           </div>
           <h1 className="text-4xl md:text-6xl lg-text-7xl font-bold leading-tight mb-6">
-            Woven with <span className="text-amber-400">Heritage</span>, Worn
-            with Pride
+            Woven with{" "}
+            <span className=" bg-linear-to-r from-amber-300 to-yellow-500 bg-clip-text text-transparent">
+              Heritage
+            </span>
+            , Worn with Pride
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 leading-relaxed">
             Discover handcrafted Kente pieces that celebrate centuries of
@@ -20,13 +23,13 @@ function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="/products"
-              className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none font-semibold bg-amber-400 hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-lg"
+              className=" inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none font-semibold bg-amber-400 hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
             >
-              Shop Collection
+              Shop Collection <ArrowRight />
             </a>
             <a
               href="#about"
-              className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold bg-white hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-lg"
+              className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold bg-white hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
             >
               Our Story
             </a>
