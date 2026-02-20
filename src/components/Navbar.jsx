@@ -20,12 +20,12 @@ function Navbar() {
             height="80px"
           />
           <p className="font-bold text-xl tracking-tight">
-            <span className="text-amber-500 ">Heritage</span>Kente
+            <span className="text-amber-400 ">Heritage</span>Kente
           </p>
         </div>
 
         <div className="flex gap-4 mr-2">
-          <button className=" text-black hover:bg-amber-500 transition">
+          <button className=" text-black hover:bg-amber-400 transition">
             <ShoppingCart />
           </button>
 
@@ -42,16 +42,16 @@ function Navbar() {
 
         {/* Desktop Nav (hidden on mobile) */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#home" className="hover:text-amber-500 transition">
+          <a href="/" className="hover:text-amber-400 transition">
             Home
           </a>
-          <a href="#shop" className="hover:text-amber-500 transition">
+          <a href="/shop" className="hover:text-amber-400 transition">
             Shop
           </a>
-          <a href="#about" className="hover:text-amber-500 transition">
+          <a href="#about" className="hover:text-amber-400 transition">
             About
           </a>
-          <button className="bg-amber-500 hover:bg-amber-300 text-white px-4 py-2 rounded-lg transition">
+          <button className="bg-amber-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition">
             <ShoppingCart />
           </button>
         </div>
@@ -61,22 +61,22 @@ function Navbar() {
       {isOpen && (
         <div className="md:hidden px-6 pb-4 space-y-4 bg-white shadow-md flex flex-col items-center">
           <a
-            href="#home"
-            className="block hover:text-amber-500 transition"
+            href="/"
+            className="block hover:text-amber-400 transition"
             onClick={() => setIsOpen(false)}
           >
             Home
           </a>
           <a
-            href="#shop"
-            className="block hover:text-amber-500 transition"
+            href="/shop"
+            className="block hover:text-amber-400 transition"
             onClick={() => setIsOpen(false)}
           >
             Shop
           </a>
           <a
             href="#about"
-            className="block hover:text-amber-500 transition"
+            className="block hover:text-amber-400 transition"
             onClick={() => setIsOpen(false)}
           >
             About
