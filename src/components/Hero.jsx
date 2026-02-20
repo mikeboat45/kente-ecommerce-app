@@ -39,8 +39,8 @@ function Hero() {
 
       <section class="py-6 border-b border-border">
         <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="flex items-center gap-4 justify-center md:justify-start animate-slide-up">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
               <div class="bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
                 <Van />
               </div>
@@ -53,7 +53,7 @@ function Hero() {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-4 justify-center md:justify-start animate-slide-up">
+            <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
               <div class="w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center bg-amber-100 text-amber-300">
                 <Shield />
               </div>
@@ -64,7 +64,7 @@ function Hero() {
                 <p class="text-sm text-muted-foreground">Hand-woven in Ghana</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 justify-center md:justify-start animate-slide-up">
+            <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
               <div class=" bg-amber-100 text-amber-300 w-12 h-12 rounded-full bg-kente-gold/10 flex items-center justify-center">
                 <Award />
               </div>

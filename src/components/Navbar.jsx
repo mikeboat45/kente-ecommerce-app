@@ -25,7 +25,7 @@ function Navbar() {
         </div>
 
         <div className="flex gap-4 mr-2">
-          <button className=" text-black hover:bg-amber-400 transition">
+          <button className="md:hidden text-black hover:bg-amber-400 transition">
             <ShoppingCart />
           </button>
 
