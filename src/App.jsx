@@ -1,10 +1,23 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
     <>
-      <Home />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        {/* 
+        <Route path="/products" element={<ProductPage />} />
+        <Route path="/cart" element={} /> 
+        */}
+      </Routes>
+      <Footer />
     </>
   );
 }

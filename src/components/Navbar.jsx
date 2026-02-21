@@ -25,9 +25,12 @@ function Navbar() {
         </div>
 
         <div className="flex gap-4 mr-2">
-          <button className="md:hidden text-black hover:bg-amber-400 transition">
+          <a
+            href="/cart"
+            className="md:hidden text-black hover:bg-amber-400 transition"
+          >
             <ShoppingCart />
-          </button>
+          </a>
 
           {/* Hamburger Button */}
           <button
@@ -48,12 +51,15 @@ function Navbar() {
           <a href="/shop" className="hover:text-amber-400 transition">
             Shop
           </a>
-          <a href="#about" className="hover:text-amber-400 transition">
+          <a href="/about" className="hover:text-amber-400 transition">
             About
           </a>
-          <button className="bg-amber-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition">
+          <a
+            href="/cart"
+            className="bg-amber-400 hover:bg-yellow-500 text-white px-4 py-2 rounded-lg transition"
+          >
             <ShoppingCart />
-          </button>
+          </a>
         </div>
       </div>
 
@@ -75,7 +81,7 @@ function Navbar() {
             Shop
           </a>
           <a
-            href="#about"
+            href="/about"
             className="block hover:text-amber-400 transition"
             onClick={() => setIsOpen(false)}
           >
