@@ -1,6 +1,6 @@
 export default function AboutHero() {
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden">
+    <section className="relative pt-36 py-20 md:py-32 overflow-hidden">
       <img
         src="/kente-pattern.webp"
         className="absolute inset-0 w-full h-full object-cover"

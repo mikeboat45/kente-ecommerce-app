@@ -3,7 +3,7 @@ import { ArrowRight, Van, Shield, Award } from "lucide-react";
 function Hero() {
   return (
     <>
-      <section id="hero" className="relative min-h-screen flex flex-col pt-36">
+      <section id="hero" className="relative min-h-screen md:min-h-0 pb-20 flex flex-col pt-36 overflow-hidden">
         <img
           src="/kente-pattern.jpg"
           className="absolute inset-0 w-full h-full object-cover"
