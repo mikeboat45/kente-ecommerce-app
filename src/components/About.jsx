@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <section className="py-16 md:py-24 bg-yellow-50" id="about">
+      <section className="py-16 md:py-24 bg-amber-50">
         <div className="mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12  mb-10 md:mb-0">
             <div className="space-y-6">

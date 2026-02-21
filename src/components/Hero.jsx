@@ -3,14 +3,20 @@ import { ArrowRight, Van, Shield, Award } from "lucide-react";
 function Hero() {
   return (
     <>
-      <section id="hero" className="min-h-screen flex flex-col pt-36">
-        <div className="w-full px-6 md:px-12 lg:px-20">
+      <section id="hero" className="relative min-h-screen flex flex-col pt-36">
+        <img
+          src="/kente-pattern.jpg"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-linear-to-r from-yellow-100/80 to-red-50/80" />
+
+        <div className="relative z-10 w-full px-6 md:px-12 lg:px-20">
           <div className="text-amber-400 font-medium text-sm inline-block rounded-4xl px-4 py-2 mb-6 border border-amber-400 bg-amber-50">
             Authentic Ghanaian Craftsmanship
           </div>
           <h1 className="text-4xl md:text-6xl lg-text-7xl font-bold leading-tight mb-6">
             Woven with{" "}
-            <span className=" bg-linear-to-r from-amber-300 to-yellow-500 bg-clip-text text-transparent">
+            <span className=" bg-linear-to-r from-amber-500 to-yellow-700 bg-clip-text text-transparent">
               Heritage
             </span>
             , <br />
@@ -30,7 +36,7 @@ function Hero() {
             </a>
             <a
               href="#about"
-              className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold bg-white hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
+              className="bg-amber-50 inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
             >
               Our Story
             </a>
@@ -38,7 +44,7 @@ function Hero() {
         </div>
       </section>
 
-      <section className="py-6 border-b border-border">
+      <section className="py-6 border-b border-border border-amber-100">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="flex items-center gap-4 justify-center lg:justify-start animate-slide-up">
