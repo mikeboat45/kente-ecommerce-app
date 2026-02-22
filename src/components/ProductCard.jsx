@@ -5,7 +5,7 @@ export default function ProductCard({ product }) {
   return (
     <Link
       to={`/products/${product.id}`}
-      className="overflow-hidden transition-all duration-300 rounded-lg"
+      className="shadow-md overflow-hidden transition-all duration-300 rounded-lg"
     >
       <div className="group relative aspect-3/4 overflow-hiden">
         <img
