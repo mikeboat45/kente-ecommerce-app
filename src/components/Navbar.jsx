@@ -48,7 +48,7 @@ function Navbar() {
           <a href="/" className="hover:text-amber-400 transition">
             Home
           </a>
-          <a href="/shop" className="hover:text-amber-400 transition">
+          <a href="/products" className="hover:text-amber-400 transition">
             Shop
           </a>
           <a href="/about" className="hover:text-amber-400 transition">
@@ -74,7 +74,7 @@ function Navbar() {
             Home
           </a>
           <a
-            href="/shop"
+            href="/products"
             className="block hover:text-amber-400 transition"
             onClick={() => setIsOpen(false)}
           >
