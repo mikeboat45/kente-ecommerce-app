@@ -1,7 +1,16 @@
 import { ShoppingBag } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useCart } from "../context/CartContext";
 
 export default function ProductCard({ product }) {
+  const { addToCart } = useCart();
+
+  const handleAddToCart = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    addToCart(product, 1);
+  };
+
   return (
     <Link
       to={`/products/${product.id}`}
@@ -15,7 +24,10 @@ export default function ProductCard({ product }) {
         />
         <div className="absolute inset-0 transition-opacity duration-300"></div>
         <div className="absolute bottom-4 left-4 right-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration 300">
-          <button className="inline-flex items-center justify-center gap-2 transition-all duration-300 bg-amber-400  hover:bg-yellow-500 rounded-md px-8 py-4 w-full text-base font-semibold">
+          <button
+            onClick={handleAddToCart}
+            className="inline-flex items-center justify-center gap-2 transition-all duration-300 bg-amber-400  hover:bg-yellow-500 rounded-md px-8 py-4 w-full text-base font-semibold"
+          >
             <ShoppingBag /> Add to Cart
           </button>
         </div>

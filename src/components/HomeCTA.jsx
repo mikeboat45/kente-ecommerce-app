@@ -1,4 +1,5 @@
 import { ArrowDown, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function HomeCTA() {
   return (
@@ -11,13 +12,13 @@ function HomeCTA() {
           Join thousands of customers worldwide who wear their culture with
           pride. Experience the beauty of authentic Kente.
         </p>
-        <a
-          className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none bg-amber-400 font-semibold hover:bg-yellow-500 hover:shadow-hover active:scale-[0.98] h-14 rounded-md px-10 text-lg"
-          href="/products"
+        <Link
+          className="inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none bg-amber-400 font-semibold hover:bg-yellow-500 hover:shadow-hover active:scale-[0.98] h-14 rounded-md px-10 text-lg text-black"
+          to="/products"
         >
           Explore the Collection
           <ArrowRight />
-        </a>
+        </Link>
       </div>
     </section>
   );

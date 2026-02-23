@@ -1,9 +1,13 @@
 import { ArrowRight, Van, Shield, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
     <>
-      <section id="hero" className="relative min-h-screen md:min-h-0 pb-20 flex flex-col pt-36 overflow-hidden">
+      <section
+        id="hero"
+        className="relative min-h-screen md:min-h-0 pb-20 flex flex-col pt-36 overflow-hidden"
+      >
         <img
           src="/kente-pattern.jpg"
           className="absolute inset-0 w-full h-full object-cover"
@@ -28,15 +32,15 @@ function Hero() {
             and timeless elegance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="/products"
-              className=" inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none font-semibold bg-amber-400 hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
+            <Link
+              to="/products"
+              className=" inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none font-semibold bg-amber-400 hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl text-black"
             >
               Shop Collection <ArrowRight />
-            </a>
+            </Link>
             <a
-              href="#about"
-              className="bg-amber-50 inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl"
+              href="/about"
+              className="bg-amber-50 inline-flex items-center justify-center gap-2 transition-all duration-300 focus-visible:outline-none border-2 border-amber-400 font-semibold hover:bg-yellow-500 hover:shadow active:scale-[0.98] h-14 rounded-md px-10 text-xl text-black"
             >
               Our Story
             </a>
