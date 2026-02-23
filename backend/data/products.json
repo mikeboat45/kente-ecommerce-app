@@ -1,0 +1,168 @@
+[
+  {
+    "id": "kente-regal-sunburst-cloth",
+    "name": "Regal Sunburst Kente Cloth",
+    "price": 220.0,
+    "image": "/kente-1.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": true,
+    "description": "A radiant sunburst pattern symbolizing vitality and royal authority.",
+    "signficance": "The Adinkra symbols woven into this cloth represent wisdom, strength, and the interconnectedness of all living things. Traditionally worn by Ashanti royalty.",
+    "stock": 15
+  },
+  {
+    "id": "kente-royal-chief-robe",
+    "name": "Royal Chief Kente Robe",
+    "price": 390.0,
+    "image": "/kente-2.jpg",
+    "type": "sewn",
+    "gender": "Men",
+    "featured": true,
+    "description": "Tailored ceremonial robe crafted from authentic handwoven Kente.",
+    "stock": 4
+  },
+  {
+    "id": "kente-emerald-heritage-cloth",
+    "name": "Emerald Heritage Kente Cloth",
+    "price": 210.0,
+    "image": "/kente-3.jpeg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Deep emerald tones representing growth, harmony, and renewal.",
+    "stock": 12
+  },
+  {
+    "id": "kente-golden-elegance-gown",
+    "name": "Golden Elegance Kente Gown",
+    "price": 420.0,
+    "image": "/kente-4.jpg",
+    "type": "sewn",
+    "gender": "Women",
+    "featured": true,
+    "description": "A flowing gown designed for celebrations and cultural occasions.",
+    "stock": 6
+  },
+  {
+    "id": "kente-sapphire-royalty-cloth",
+    "name": "Sapphire Royalty Kente Cloth",
+    "price": 230.0,
+    "image": "/kente-5.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Brilliant sapphire weave symbolizing wisdom and leadership.",
+    "stock": 10
+  },
+  {
+    "id": "kente-heritage-tailored-suit",
+    "name": "Heritage Kente Tailored Suit",
+    "price": 520.0,
+    "image": "/kente-6.jpg",
+    "type": "sewn",
+    "gender": "Men",
+    "featured": false,
+    "description": "Modern tailored suit infused with traditional Kente panels.",
+    "stock": 3
+  },
+  {
+    "id": "kente-crimson-legacy-cloth",
+    "name": "Crimson Legacy Kente Cloth",
+    "price": 215.0,
+    "image": "/kente-7.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Bold crimson threads woven to honor ancestral strength.",
+    "stock": 14
+  },
+  {
+    "id": "kente-royal-heritage-kaftan",
+    "name": "Royal Heritage Kente Kaftan",
+    "price": 350.0,
+    "image": "/kente-8.webp",
+    "type": "sewn",
+    "gender": "Men",
+    "featured": false,
+    "description": "Luxurious kaftan blending comfort with cultural prestige.",
+    "stock": 7
+  },
+  {
+    "id": "kente-ivory-peace-cloth",
+    "name": "Ivory Peace Kente Cloth",
+    "price": 190.0,
+    "image": "/kente-9.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Soft ivory weave symbolizing peace and unity.",
+    "stock": 18
+  },
+  {
+    "id": "kente-sunrise-celebration-dress",
+    "name": "Sunrise Celebration Kente Dress",
+    "price": 410.0,
+    "image": "/kente-10.webp",
+    "type": "sewn",
+    "gender": "Women",
+    "featured": true,
+    "description": "A vibrant dress inspired by the colors of a Ghanaian sunrise.",
+    "stock": 5
+  },
+  {
+    "id": "kente-forest-royale-cloth",
+    "name": "Forest Royale Kente Cloth",
+    "price": 205.0,
+    "image": "/kente-11.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Earthy forest hues woven to reflect balance and prosperity.",
+    "stock": 9
+  },
+  {
+    "id": "kente-modern-fusion-blazer",
+    "name": "Modern Fusion Kente Blazer",
+    "price": 480.0,
+    "image": "/kente-12.jpg",
+    "type": "sewn",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Contemporary blazer combining Western tailoring with Kente artistry.",
+    "stock": 6
+  },
+  {
+    "id": "kente-golden-dawn-cloth",
+    "name": "Golden Dawn Kente Cloth",
+    "price": 225.0,
+    "image": "/kente-13.jpg",
+    "type": "cloth",
+    "gender": "Unisex",
+    "featured": true,
+    "description": "Golden woven threads representing new beginnings and ambition.",
+    "stock": 11
+  },
+  {
+    "id": "kente-royal-wedding-set",
+    "name": "Royal Kente Wedding Set",
+    "price": 650.0,
+    "image": "/kente-14.webp",
+    "type": "sewn",
+    "gender": "Unisex",
+    "featured": true,
+    "description": "Premium matching ceremonial outfit designed for traditional weddings.",
+    "stock": 2
+  },
+  {
+    "id": "kente-heritage-symbolic-cloth",
+    "name": "Heritage Symbolic Kente Cloth",
+    "price": 195.0,
+    "image": "/kente-15.webp",
+    "type": "accessories",
+    "gender": "Unisex",
+    "featured": false,
+    "description": "Traditional symbolic patterns woven with deep cultural meaning.",
+    "stock": 16
+  }
+]
